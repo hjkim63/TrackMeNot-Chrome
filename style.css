@@ -187,11 +187,19 @@
 		border-style: inset;
 		border-width: 3px;
 	} 
-	#onhover_queriesinfo{
+/* 	#onhover_queriesinfo{
     	visibility: hidden;
 	}
 	#queries_info:hover ~ #onhoverfb{
 	    visibility: visible;
+	} */
+	.hide {
+	  display: none;
+	}
+
+	.myDIV:hover + .hide {
+	  display: block;
+	  color: #ED762F;
 	}
     
     DIV.block {text-align:justify}
