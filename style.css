@@ -9,7 +9,7 @@
 
     .optiontable, .optiontable TD, #tmn_logs_container table
     {
-        font-family:verdana;
+        font-family:Helvetica;
         font-size: 11px;
     }
     
@@ -36,7 +36,7 @@
     a:link, a:visited {
         color: #006ec4;
         text-decoration: none;
-        font-family: Verdana;
+        font-family: Helvetica;
         font-weight: bold;
         font-size: 10px;
     }
@@ -44,14 +44,14 @@
     a:link.linkperso {
         color: #413F3F;
         text-decoration: none;
-        font-family: Verdana;
+        font-family: Helvetica;
         font-size: 10px;
     }
     
     .linkperso:visited {
         color: #413F3F;
         text-decoration: none;
-        font-family: Verdana;
+        font-family: Helvetica;
         font-size: 10px;
     }
     .smLink {
@@ -64,19 +64,19 @@
     .lgLink {
         color: #006ec4;
         text-decoration: none;
-        font-family: Verdana;
+        font-family: Helvetica;
         font-size: 13px;
         font-weight: bold;
     }
 	
 	.smallbutton {
-        background: #E6EAE2;
+        background: #00446D;
         width: 15px;
         padding:1px 0;
         border:1px solid #608925;
         font-size: 11px;
         text-align:center;
-        color:#00446D;
+        color:#E6EAE2;
         border-radius: 5px;
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
@@ -136,13 +136,13 @@
 
     button, button:visited {
         display:block;
-        background: #E6EAE2;
+        background: #00446D;
         width: 90px;
         padding:1px 0;
         border:1px solid #608925;
         font-size: 11px;
         text-align:center;
-        color:#00446D;
+        color:#E6EAE2;
         border-radius: 5px;
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
@@ -161,7 +161,7 @@
 	.rounded-button {
 	  width: 60px;
 	  height: 60px;
-	  background: #009578;
+	  background: ##4B6DCD;
 	  color: #ffffff;
 	  display: inline-flex;
 	  align-items: center;
