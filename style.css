@@ -187,5 +187,11 @@
 		border-style: inset;
 		border-width: 3px;
 	} 
+	#onhover_queriesinfo{
+    	visibility: hidden;
+	}
+	#queries_info:hover ~ #onhoverfb{
+	    visibility: visible;
+	}
     
     DIV.block {text-align:justify}
