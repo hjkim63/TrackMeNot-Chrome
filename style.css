@@ -158,6 +158,24 @@
         padding:2px 0 ;
         text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
       }
+	.rounded-button {
+	  width: 60px;
+	  height: 60px;
+	  background: #009578;
+	  color: #ffffff;
+	  display: inline-flex;
+	  align-items: center;
+	  justify-content: center;
+	  cursor: pointer;
+	  border-radius: 50%;
+	  border: none;
+	  text-decoration: none;
+	  transition: background 0.2s;
+	}
 
+	.rounded-button:hover {
+	  background: #00866c;
+	}
+	
     
     DIV.block {text-align:justify}
