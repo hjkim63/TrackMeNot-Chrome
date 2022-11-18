@@ -70,7 +70,7 @@
     }
 	
 	.smallbutton {
-        background: #00446D;
+        background: #4B6DCD;
         width: 15px;
         padding:1px 0;
         border:1px solid #608925;
@@ -85,7 +85,7 @@
     
     
     A:hover {
-        color: #ff5500;
+        color: #ED762F;
         text-decoration: none;
     }
     
@@ -136,7 +136,7 @@
 
     button, button:visited {
         display:block;
-        background: #00446D;
+        background: #4B6DCD;
         width: 90px;
         padding:1px 0;
         border:1px solid #608925;
@@ -151,7 +151,7 @@
       }
       
       button:hover {
-        border-color:#49671d;
+        border-color:#ED762F;
       }
       
       button:active {
