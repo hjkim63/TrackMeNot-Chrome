@@ -230,8 +230,8 @@
   vertical-align: middle;
   position: relative;
   display: inline-block;
-  width: 50px;
-  height: 24px;
+  width: 44px;
+  height: 20px;
 }
 
 .switch input { 
@@ -255,13 +255,13 @@
 .slider:before {
   position: absolute;
   content: "";
-  height: 17px;
-  width: 17px;
-  right: 30px;
-  bottom: 3px;
+  height: 16px;
+  width: 16px;
+  right: 28px;
+  bottom: 2px;
   background-color: white;
   -webkit-transition: .4s;
-  transition: .4s;
+  transition: .3s;
 }
 
 input:checked + .slider {
@@ -269,7 +269,7 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #4B6DCD;
+  box-shadow: 0 0 5px #4B6DCD;
 }
 
 input:checked + .slider:before {
