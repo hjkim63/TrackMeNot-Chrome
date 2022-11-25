@@ -287,3 +287,35 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 /*  */
+
+
+/*hover text boxes */
+#passinfo {
+  height: 20px;
+  width: 20px;
+  margin-left: 130px;
+  margin-top: -20px;
+  margin-bottom: 15px;
+  padding: -20px;
+  position: absolute;
+  display: block;
+}
+
+#infotext {
+  background-color: #628ca0;
+  border-radius: 5px;
+  color: rgba(34, 34, 34, 0.829);
+  padding: 5px 4px 4px 4px;
+  position: relative;
+  box-shadow: 0px 1px 5px #999;
+  opacity: 0;
+  margin-left: 100px;
+  left: 10px;
+  position: absolute;
+  transition: .5s ease;
+}
+
+#passinfo:hover + #infotext {
+  opacity: 1;
+  visibility: visible;
+}
