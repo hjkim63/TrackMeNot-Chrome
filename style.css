@@ -319,3 +319,8 @@ input:checked + .slider:before {
   opacity: 1;
   visibility: visible;
 }
+
+/* icon alignment */
+.flex-row {
+  display: flex;
+}
