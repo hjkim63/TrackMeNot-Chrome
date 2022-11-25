@@ -51,7 +51,7 @@
                     
                     <tr>
                         <td>
-                        <table bgcolor=#F0F0F0 width=769 valign="top" align="right" cellspacing="0">
+                        <table bgcolor=#F0F0F0 width=600 valign="top" align="right" cellspacing="0">
                             <tr valign="top">
                             <td width=30></td>
                             <td>
@@ -59,7 +59,7 @@
                                 <tr  align="left">
                                     <td width="100%">
                                         <hr style="width:100%;text-align:left;margin-left:0">
-                                        <label><font face=Helvetica size=2 color=#4B6DCD> Main Settings </font></label>
+                                        <label><font face=Helvetica size=3 color=#4B6DCD> Main Settings </font></label>
                                     </td>
                                 </tr>			  
                                 <tr>
@@ -182,13 +182,6 @@
                                         <img src="images/question_mark_icon.png" width="2" height="2" id="passinfo">
                                         <div id="infotext">Customize the rate of randomized queries and see the query pool.</div>
                                         <!-- </div> -->
-                                        <!-- <div class="flex-row align-items-center">
-                                            <div class="sample-large-thing"></div>
-                                            <p>hello</p>
-                                            <div class="sample-large-thing"></div>
-                                            <p>hello</p>
-                                          </div> -->
-                                        <!-- <i class="far fa-solid fa-circle-question"></i> -->
                                     </td>
                                 </tr>
                             </tr>       
@@ -233,8 +226,18 @@
 
                                 <tr  align="left">
                                     <td width="100%">
-                                        <hr style="width:100%;text-align:left;margin-left:0">
-                                        <label><font data-l10n-id="tmn.option.logging" face=Helvetica size=2 color=#4B6DCD> Logging Options</font></label>
+                                        <hr style="width:100%;text-align:left;margin-left:0" class="flex-row align-items-center">
+                                        <!-- <div class="flex-row align-items-center"> -->
+                                        <label><font face=Helvetica size=3 bold color=#4B6DCD> Logging Options </font></label> 
+                                        <img src="images/question_mark_icon.png" width="1" height="1" id="passinfo">
+                                        <div id="infotext">Customize how you want to log the randomized queries.
+                                            Check "Persistent" for logging across browser sessions.
+                                            Check "Disable" for disabling logging.
+                                            Check none for logging a single browser sessions.
+                                        </div>
+
+                                        <!-- <hr style="width:100%;text-align:left;margin-left:0">
+                                        <label><font data-l10n-id="tmn.option.logging" face=Helvetica size=2 color=#4B6DCD> Logging Options</font></label> -->
                                     </td>
                                     
                                 <!-- </tr>                                
@@ -268,13 +271,14 @@
                                     </td>
                                 </tr>
 
-                                <tr  align="left">
+                                <!-- Remove RSS feed until functionality is reinstalled or updated as many sites don't have RSS feeds -->
+                                <!-- <tr  align="left">
                                     <td width="100%">
                                         <hr style="width:100%;text-align:left;margin-left:0">
                                         <label><font face=Helvetica size=2 color=#4B6DCD> RSS Feed </font></label>
                                         <i class="far fa-solid fa-circle-question"></i>
                                     </td>
-                                </tr>
+                                </tr> -->
                                 
                             <!-- </tr>                                
                             <tr align="left"></tr>
@@ -284,7 +288,7 @@
                                 </td>
                             <tr> -->
                                 
-                                <tr>
+                                <!-- <tr>
                                     <td>
                                         <table width="100%" BGCOLOR=#FFFFFF  >
                                             <tr>
@@ -298,13 +302,20 @@
 
                                         </table>
                                     </td>
-                                </tr>
+                                </tr> -->
 
                                 
                                 <tr  align="left">
                                     <td width="100%">
                                         <hr style="width:100%;text-align:left;margin-left:0">
-                                        <label><font face=Helvetica size=2 color=#4B6DCD> Black List </font></label> <i class="far fa-solid fa-circle-question"></i>
+                                        <hr style="width:100%;text-align:left;margin-left:0" class="flex-row align-items-center">
+                                        <!-- <div class="flex-row align-items-center"> -->
+                                        <label><font face=Helvetica size=3 bold color=#4B6DCD> Black List </font></label> 
+                                        <img src="images/question_mark_icon.png" width="1" height="1" id="passinfo">
+                                        <div id="infotext">Customize the words you want to filter out of the randomized queries issued by TMN on your behalf.
+                                        </div>
+
+                                        <!-- <label><font face=Helvetica size=2 color=#4B6DCD> Black List </font></label> <i class="far fa-solid fa-circle-question"></i> -->
                                     </td>
                                 </tr>		
 
@@ -381,6 +392,7 @@
                                         <td></td>
                                         <td><font face=verdana size=1 color=#413F3F>&nbsp; rlicul(Croatian), BruceH(Chinese), Edgard Dias Magalh�es(Portuguese)</font></td>
                                     </tr> -->
+                                    
                                     <td>
                                         <font face= Helvetica size=1 color=#413F3F><b>Version 0.10.3</b></font>
                                     </td>
