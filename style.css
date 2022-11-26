@@ -1,7 +1,7 @@
     .linkList {
         color: #006ec4;
         text-decoration: none;
-        font-family: Verdana;
+        font-family: Helvetica;
         font-weight: bold;
         font-size: 11.5px;
         line-height: 22px;
@@ -57,7 +57,7 @@
     .smLink {
         color: #006ec4;
         text-decoration: none;
-        font-family: Verdana;
+        font-family: Helvetica;
         font-size: 10px;
         font-weight: bold;
     }
@@ -324,4 +324,5 @@ input:checked + .slider:before {
 /* icon alignment */
 .flex-row {
   display: flex;
+  flex-direction: row;
 }
