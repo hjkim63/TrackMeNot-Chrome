@@ -73,7 +73,7 @@
         background: #4B6DCD;
         width: 15px;
         padding:1px 0;
-        border:1px solid #608925;
+        border:1px solid #4B6DCD;
         font-size: 11px;
         text-align:center;
         color:#E6EAE2;
@@ -97,7 +97,7 @@
     
     #tmn-table-header{
         padding:1px 0;
-        border:1px solid #608925;
+        border:1px solid #4B6DCD;
 
         border-radius: 2px;
         -moz-border-radius: 2px;
@@ -106,20 +106,20 @@
       }
 
     #tmn_logs_container {
-        width:760px; 
+        width:600px; 
         overflow-y: scroll;
         overflow-x: hidden; 
         height: 100%;
         margin:20px;
         visibility:hidden;
         background-color: #F0F0F0;
-        border:1px solid #608925;
+        border:1px solid #4B6DCD;
         border-radius: 5px;
         -moz-border-radius: 5px;
         -webkit-border-radius: 5px;
     }
     #tmn_logs_container table {
-        width:740px;
+        width:600px;
         margin:0;  
         padding: 20px 0;
         line-height: 1.2em;
@@ -139,7 +139,7 @@
         background: #4B6DCD;
         width: 90px;
         padding:1px 0;
-        border:1px solid #608925;
+        border:1px solid #4B6DCD;
         font-size: 11px;
         text-align:center;
         color:#E6EAE2;
@@ -158,27 +158,8 @@
         padding:2px 0 ;
         text-shadow: 0 1px 0 rgba(0, 0, 0, 0.8);
       }
-/* 	.rounded-button {
-	  width: 40px;
-	  height: 40px;
-	  background: ##4B6DCD;
-	  color: #ffffff;
-	  display: inline-flex;
-	  align-items: center;
-	  justify-content: center;
-	  cursor: pointer;
-	  border-radius: 50%;
-	  border: none;
-	  text-decoration: none;
-	  transition: background 0.2s;
-	}
 
-	.rounded-button:hover {
-	  background: #ED762F
-		  ;
-	} */
-
-	.rounded-button {
+      .rounded-button {
 	  width: 25px;
 	  height: 25px;
 	  background: #4B6DCD;
@@ -206,12 +187,7 @@
 		border-style: inset;
 		border-width: 3px;
 	} 
-/* 	#onhover_queriesinfo{
-    	visibility: hidden;
-	}
-	#queries_info:hover ~ #onhoverfb{
-	    visibility: visible;
-	} */
+
 	.hide {
 	  display: none;
 	}
